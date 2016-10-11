@@ -15,6 +15,16 @@ ljApp.config(['$routeProvider',
             controller: 'HomeCtrl'
         })
 
+        .when('/news', {
+            templateUrl: 'partials/news.html',
+            controller: 'NewsCtrl'
+        })
+
+        .when('/contact', {
+            templateUrl: 'partials/contact.html',
+            controller: 'ContactCtrl'
+        })
+
         .when('/', {
             redirectTo: '/home'
         })
