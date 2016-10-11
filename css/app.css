@@ -7,3 +7,7 @@ h1 {
 .centered-pills ul.nav-pills { display:inline-block; }
 .centered-pills li { display:inline; }
 .centered-pills a { float:left; }
+
+.meme {
+    align-content: center;
+}
