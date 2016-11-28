@@ -24,6 +24,11 @@ ljStandApp.config(['$routeProvider',
             controller: 'newsCtrl'
         })
 
+        .when('/news/:id', {
+            templateUrl: 'partials/news_detail.html',
+            controller: 'newsDetailCtrl'
+        })
+
         .when('/', {
             redirectTo: '/home'
         })

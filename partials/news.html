@@ -1,1 +1,23 @@
 <h1>News</h1>
+
+<div class="col-md-2">
+            Search: <input ng-model="query">
+        </div>
+
+        <div class="col-md-10">
+            <ul >
+                <li ng-repeat="item in news | filter:query">
+                    <h3>{{item.title}}</h3>
+                    <p>{{item.short}}</p>
+                    <a href="{{'#/news/' + item.id}}">Read More ></a>
+                    <form action="{{'#/news/' + item.id}}">
+                        <input type="submit">
+                    </form>
+                    <!-- <p>{{group.name}}</p>
+                    <form action="{{'usersandgroups.html#/group/' + group._id}}" >
+                        <input type="submit">
+                    </form>
+                    <br> -->
+                </li>
+            </ul>
+        </div>
