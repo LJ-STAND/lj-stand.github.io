@@ -14,8 +14,8 @@ pages.controller('newsCtrl', ['$scope', '$http', '$routeParams',
     }
 ]);
 
-pages.controller('newsDetailCtrl', ['$scope', '$http', '$routeParams',
-    function($scope, $http, $routeParams) {
+pages.controller('newsDetailCtrl', ['$scope', '$http', '$routeParams', '$sce',
+    function($scope, $http, $routeParams, $sce) {
         var url = '/news.json';
         $http.get(url).success(function(data) {
             for (var i = 0; i < data.length; i++) {
@@ -25,5 +25,10 @@ pages.controller('newsDetailCtrl', ['$scope', '$http', '$routeParams',
                 }
             }
         });
+
+
+        $scope.renderHtml = function (htmlCode) {
+            return $sce.trustAsHtml(htmlCode);
+        };
     }
 ]);

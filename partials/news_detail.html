@@ -2,4 +2,4 @@
 <h5>{{item.date}}</h5>
 <img src={{item.image}}>
 <br>
-<p>{{item.content}}</p>
+<p ng-bind-html="renderHtml(item.content)"></p>

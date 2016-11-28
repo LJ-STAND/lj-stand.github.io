@@ -2,6 +2,7 @@
 
 var ljStandApp = angular.module('ljStandApp', [
     'ngRoute',
+    'ngSanitize',
     'pages'
 ]);
 
