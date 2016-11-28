@@ -1,17 +1,8 @@
 [
     {
-        "id": 1,
-        "title": "Test Post 1",
-        "short": "Shorter Message",
-        "content": "Blah blah",
-        "image": "images/sydney.jpg",
-        "date": "28/11/2016"
-    },
-    {
         "id": 0,
-        "title": "Test Post 2",
-        "short": "Shorter Message",
-        "content": "Blah blah 2",
-        "date": "28/11/2016"
+        "title": "Test Post 1",
+        "short": "Short Summary of Post",
+        "date": "29/11/2016"
     }
 ]

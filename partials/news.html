@@ -1,6 +1,7 @@
 <h1>News</h1>
-Search: <input ng-model="query">
-<ul >
+Search:
+<input ng-model="query">
+<ul>
     <li ng-repeat="item in news | filter:query">
         <h3>{{item.title}}</h3>
         <p>{{item.short}}</p>

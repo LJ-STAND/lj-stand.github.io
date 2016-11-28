@@ -34,7 +34,8 @@ ljStandApp.config(['$routeProvider',
             redirectTo: '/home'
         })
 
-        .otherwise({
-            redirectTo: '/home'
-        });
-    }]);
+        // .otherwise({
+        //     redirectTo: '/home'
+        // });
+    }
+]);

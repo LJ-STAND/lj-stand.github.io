@@ -1,22 +1,22 @@
 {
-  "name": "lj-stand",
-  "version": "1.0.0",
-  "description": "LJ-STAND Website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LJ-STAND/lj-stand.github.io.git"
-  },
-  "author": "Lachlan Grant",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LJ-STAND/lj-stand.github.io/issues"
-  },
-  "homepage": "https://github.com/LJ-STAND/lj-stand.github.io#readme",
-  "dependencies": {
-    "bower": "^1.7.9"
-  }
+    "name": "lj-stand",
+    "version": "1.0.0",
+    "description": "LJ-STAND Website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LJ-STAND/lj-stand.github.io.git"
+    },
+    "author": "Lachlan Grant",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LJ-STAND/lj-stand.github.io/issues"
+    },
+    "homepage": "https://github.com/LJ-STAND/lj-stand.github.io#readme",
+    "dependencies": {
+        "bower": "^1.7.9"
+    }
 }

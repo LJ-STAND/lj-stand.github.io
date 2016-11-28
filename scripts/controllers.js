@@ -23,11 +23,14 @@ pages.controller('newsDetailCtrl', ['$scope', '$http', '$routeParams', '$sce',
                 if (item.id == $routeParams.id) {
                     $scope.item = item;
                 }
+
+                $http.get('/partials/news/post' + item.id + '.html').success(function(data) {
+                    $scope.partialData = data;
+                });
             }
         });
 
-
-        $scope.renderHtml = function (htmlCode) {
+        $scope.renderHtml = function(htmlCode) {
             return $sce.trustAsHtml(htmlCode);
         };
     }

@@ -1,18 +1,18 @@
 #nationals, #news, #teams {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 75%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75%;
 }
 
 #nationals {
-  background-image: url("../images/robot.jpg");
+    background-image: url("../images/robot.jpg");
 }
 
 #news {
-  background-image: url("../images/news.jpg");
+    background-image: url("../images/news.jpg");
 }
 
 #teams {
@@ -21,24 +21,24 @@
 
 .content, .darkContent {
     position: relative;
-    text-align:center;
-    padding:50px 80px;
+    text-align: center;
+    padding: 50px 80px;
     text-align: justify;
 }
 
 .content {
     color: #777;
-    background-color:#f7f7f7;
+    background-color: #f7f7f7;
 }
 
 .darkContent {
-    color:#ddd;
-    background-color:#6a7076;
+    color: #ddd;
+    background-color: #6a7076;
 }
 
 .paralaxHeader {
-    background-color:transparent;
-    font-size:50px;
+    background-color: transparent;
+    font-size: 50px;
     color: #f7f7f7;
 }
 
