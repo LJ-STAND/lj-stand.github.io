@@ -14,6 +14,16 @@ ljStandApp.config(['$routeProvider',
             controller: 'homeCtrl'
         })
 
+        .when('/robots', {
+            templateUrl: 'partials/robots.html',
+            controller: 'robotsCtrl'
+        })
+
+        .when('/news', {
+            templateUrl: 'partials/news.html',
+            controller: 'newsCtrl'
+        })
+
         .when('/', {
             redirectTo: '/home'
         })
