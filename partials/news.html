@@ -9,9 +9,8 @@
                 <li ng-repeat="item in news | filter:query">
                     <h3>{{item.title}}</h3>
                     <p>{{item.short}}</p>
-                    <a href="{{'#/news/' + item.id}}">Read More ></a>
                     <form action="{{'#/news/' + item.id}}">
-                        <input type="submit">
+                        <input type="submit" value="Read More ->">
                     </form>
                 </li>
             </ul>
