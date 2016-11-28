@@ -1,6 +1,14 @@
-<html>
+<html ng-app="ljStandApp">
     <head>
         <title>LJ-STAND</title>
+
+        <!-- <script src="bower_components/jquery/dist/jquery.js"></script> -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers.js"></script>
+
         <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
         <link rel="stylesheet" href="stylesheets/parallax.css" type="text/css">
         <link rel="stylesheet" href="stylesheets/header.css" type="text/css">
@@ -9,8 +17,6 @@
     </head>
 
     <body>
-        <a name="about"></a>
-
         <ul class="menu">
             <li class="menuItem">
                 <a href="#about" class="menuText">About</a>
@@ -32,37 +38,9 @@
         </div>
 
         <div class="content">
-                <h2>Who We Are</h2>
-                <p>LJ-STAND is a team of enthusiastic students from Brisbane Boys' College, Australia. We work hard to do the best we can and strive for excellence in the Robocup Junior competition.</p>
-
-                <h2>What We Do</h2>
-                <p>This year we will be building two robots, with the intention of competing at the Robocup Junior regional, state and national competitions. Over the course of the year leading up to the competitions, we will be designing, building and programming our robot to play in the lightweight soccer division.</p>
-        </div>
-
-        <div id="teams">
-            <div class="caption">
-                <span class="paralaxHeader">Our Robots</span><br>
-                <a class="imageDetail">Photo of LJ STAND at RoboCup Junior Regionals, 2016.</a>
-            </div>
-
-        </div>
-
-        <a name="teams"></a>
-
-        <div class="content">
-            <br><br><br><br><br>
-        </div>
-
-        <div id="news">
-            <div class="caption">
-                <span class="paralaxHeader">Events</span><br>
-                <a class="imageDetail">Photo of LJ STAND at RoboCup Junior Nationals, 2016.</a>
+            <div class="view-container">
+                <div ng-view class="view-frame"></div>
             </div>
         </div>
-
-        <div class="content">
-            <br><br><br><br><br>
-        </div>
-
     </body>
 </html>
