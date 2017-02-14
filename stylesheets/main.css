@@ -57,3 +57,33 @@ body, html {
     font-size: 20px;
     text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.72);
 }
+
+#navbar {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.navbar-button-container {
+    width: 50%;
+    float: left;
+}
+
+.navbar-button {
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: calc(5% + 3px);
+    text-align: center;
+    width: 60%;
+    display: block;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transition: ease 0.3s
+}
+
+.navbar-button:hover {
+    border-bottom: 5px solid #ffffff;
+    margin-bottom: 5%;
+}
