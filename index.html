@@ -1,6 +1,6 @@
 <html ng-app="ljStandApp">
     <head>
-        <title>LJ-STAND</title>
+        <title>LJ STAND</title>
 
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
@@ -10,71 +10,62 @@
         <script src="scripts/controllers.js"></script>
 
         <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
-        <link rel="stylesheet" href="stylesheets/parallax.css" type="text/css">
-        <link rel="stylesheet" href="stylesheets/header.css" type="text/css">
-        <link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
-        <link rel="stylesheet" href="stylesheets/column.css" type="text/css">
-
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheets/home.css" type="text/css">
     </head>
 
     <body>
-        <div id="column-left">
-            <div id="logo-container">
-                <img src="images/logo.png" id="logo">
-            </div>
-
+        <div id="header">
             <div id="title-container">
+                <div id="logo-container">
+                    <img src="images/logo.png" id="logo">
+                </div>
+
                 <p id="title">LJ STAND</p>
             </div>
 
-            <div id="button-conatiner">
-                <a class="icon-button" href="https://www.facebook.com/BBCrobotics/">
-                    v
-                </a>
-
-                <a class="icon-button" href="https://github.com/LJ-STAND">
-                    <img id="github-logo" src="images/GitHub-Mark-Light-120px-plus.png">
-                </a>
+            <div id="header-text-container">
+                <p id="header-text">A robotics team from Brisbane Boys' College</p>
             </div>
         </div>
 
-        <div id="column-right">
-            <div id="scroll">
-                <div class="scroll-element">
-                    <div class="scroll-element-content">
-                        <p class="content-title">// About</p>
-                        <p class="content-text">LJ STAND is a team of enthusiastic students from Brisbane Boys' College, Australia. We work hard to do the best we can and strive for excellence in the Robocup Junior competition.</p>
-                        <br>
-                        <p class="content-text">Last year saw us acheive first place at the Robocup Junior Australian national competition, qualifying us for the 2017 international competition in Nagoya, Japan.</p>
-                        <br>
-                        <p class="content-text">This year we will be building two robots, with the intention of competing at the Robocup Junior regional, state, national and possibly international competitions. Over the course of the year leading up to the competitions, we will be designing, building and programming our robot to play in the lightweight soccer division.</p>
-                    </div>
-                    <iframe id="vid" src="https://www.youtube.com/embed/haaCRjj5ZxU" allowfullscreen></iframe>
-                    <div class="scroll-element-content">
-                        <p class="content-text">LJ STAND is a team from Brisbane Boys' College (BBC), located in Brisbane, Australia. The video above gives an overview of the robotics program at BBC.</p>
-                    </div>
+        <div id="content">
+            <div class="scroll-element">
+                <div class="scroll-element-content">
+                    <p class="content-title">// About Us</p>
+                    <p class="content-text">LJ STAND is a team of enthusiastic students from Brisbane Boys' College, Australia. We work hard to do the best we can and strive for excellence in the Robocup Junior competition.</p>
+                    <br>
+                    <p class="content-text">Last year saw us acheive first place at the Robocup Junior Australian national competition, qualifying us for the 2017 international competition in Nagoya, Japan.</p>
+                    <br>
+                    <p class="content-text">This year we will be building two robots, with the intention of competing at the Robocup Junior regional, state, national and possibly international competitions. Over the course of the year leading up to the competitions, we will be designing, building and programming our robot to play in the lightweight soccer division.</p>
                 </div>
-
-                <div class="scroll-element">
-                    <div class="scroll-element-content">
-                        <p class="content-title">// Team</p>
-                    </div>
-                    <img id="team-image" src="images/team.JPG">
-                    <div class="scroll-element-content">
-                        <p class="content-text">LJ STAND consists of 5 members: Lachlan Grant, James Yelland, James Wallington, Sam Tudor and Nakul Doshi.</p>
-                    </div>
+                <iframe id="vid" src="https://www.youtube.com/embed/haaCRjj5ZxU" allowfullscreen></iframe>
+                <div class="scroll-element-content">
+                    <p class="content-text">LJ STAND is a team from Brisbane Boys' College (BBC), located in Brisbane, Australia. The video above gives an overview of the robotics program at BBC.</p>
                 </div>
-
-                <div class="scroll-element">
-                    <div class="scroll-element-content">
-                        <p class="content-title">// Robot</p>
-
-                    </div>
-                </div>
-
-                <div id="scroll-spacer"></div
             </div>
+
+            <div class="scroll-element">
+                <div class="scroll-element-content">
+                    <p class="content-title">// Team</p>
+                </div>
+                <img id="team-image" src="images/team.JPG">
+                <div class="scroll-element-content">
+                    <p class="content-text">LJ STAND consists of 5 members: Lachlan Grant, James Yelland, James Wallington, Sam Tudor and Nakul Doshi.</p>
+                </div>
+            </div>
+
+            <div class="scroll-element">
+                <div class="scroll-element-content">
+                    <p class="content-title">// Robots</p>
+                    <p class="content-text">LJ STAND has been working as a team since 2016. In 2016, we built two custom soccer robots which we entered into the Robocup Junior Australia competition. The 2016 robots had 12 IR sensors, 8 light sensors, an IMU, a camera, 3 motors, and were powered by an Arduino Mega.</p>
+                    <br>
+                    <p class="content-text">This year, we are building two more robots which are a significant upgrade over the 2016 robots. With  more powerful motors, more sensors, and faster processors, we have designed our robots to compete in the highest level of Robocup Junior, the international competition. More information about the 2017 robots is avaliable on the robots page.</p>
+                    <br>
+                    <p class="content-text">In the spirit of Robocup Junior, we have released all our 2016 designs and code for anyone interested in looking at them, and are avaliable on GitHub.</p>
+                </div>
+            </div>
+
+            <div id="scroll-spacer"></div
         </div>
     </body>
 </html>

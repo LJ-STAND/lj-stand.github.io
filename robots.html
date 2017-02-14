@@ -1,0 +1,176 @@
+<html ng-app="ljStandApp">
+    <head>
+        <title>LJ STAND | Robots</title>
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers.js"></script>
+
+        <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+        <link rel="stylesheet" href="stylesheets/robots.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="title-container">
+                <div id="logo-container">
+                    <img src="images/logo.png" id="logo">
+                </div>
+
+                <p id="title">ROBOTS</p>
+            </div>
+
+            <div id="header-text-container">
+                <p id="header-text">The LJ STAND 2017 robots are a major improvement over the 2016 robots. With significant upgrades in processing power, sensors, motor speed and power, and hardware quality, these robots are designed to take on the challenge of the Robocup Junior international competition.</p>
+            </div>
+        </div>
+
+        <div class="robots-section" id="robots-section-specifications">
+            <div class="robots-section-header">
+                <p class="robots-section-title">SPECIFICTAIONS</p>
+            </div>
+
+            <div class="robots-section-content">
+                <div class="section-row">
+                    <div class="section-column">
+                        <p class="section-box-title">SPEED</p>
+                        <p class="section-box-text">2.2m/s</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">DIAMETER</p>
+                        <p class="section-box-text">200mm</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">WEIGHT</p>
+                        <p class="section-box-text">1.1kg</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">MICROCONTROLLERS</p>
+                        <p class="section-box-text">3x Teensy 3.5, 120mHz each</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="robots-section" id="robots-section-sensors">
+            <div class="robots-section-header">
+                <p class="robots-section-title">SENSORS</p>
+            </div>
+
+            <div class="robots-section-content">
+                <div class="section-row">
+                    <div class="section-column">
+                        <p class="section-box-title">BALL</p>
+                        <p class="section-box-text">24x TSOP infrared sensors for detecting the ball</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">LIGHT</p>
+                        <p class="section-box-text">24x ALS-PT19-315C/L177/TR8 phototransistors combined with 24x red LEDs for detecting the white boundary line</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">CAMERA</p>
+                        <p class="section-box-text">CMUCam5 Pixy for goal detection</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">LASER GATE</p>
+                        <p class="section-box-text">Laser Diode combined with a photoresistor for detecting when the robot has the ball</p>
+                    </div>
+                </div>
+
+                <div class="section-row">
+                    <div class="section-column-two">
+                        <p class="section-box-title">SONARS</p>
+                        <p class="section-box-text">4x SRF10 sonars for detecting the edges of the field</p>
+                    </div>
+
+                    <div class="section-column-two">
+                        <p class="section-box-title">IMU</p>
+                        <p class="section-box-text">MPU9250 3-axis accelerometer, gyroscope and magnetometer for detecting which direction the robot is facing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="robots-section" id="robots-section-motors">
+            <div class="robots-section-header">
+                <p class="robots-section-title">MOTORS</p>
+            </div>
+
+            <div class="robots-section-content">
+                <div class="section-row">
+                    <p class="section-box-big-text">
+                        Four Maxon DCX16 motors
+                    </p>
+                </div>
+
+                <div class="section-row">
+                    <div class="section-column">
+                        <p class="section-box-title">VOLTAGE</p>
+                        <p class="section-box-text">12V</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">ROTATIONAL SPEED</p>
+                        <p class="section-box-text">615rpm</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">GEAR RATIO</p>
+                        <p class="section-box-text">16:1</p>
+                    </div>
+
+                    <div class="section-column">
+                        <p class="section-box-title">TORQUE</p>
+                        <p class="section-box-text">0.069Nm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="robots-section" id="robots-section-hardware">
+            <div class="robots-section-header">
+                <p class="robots-section-title">HARDWARE</p>
+            </div>
+
+            <div class="robots-section-content">
+                <div class="section-row">
+                    <div class="section-column-half">
+                        <p class="section-box-title">PCB</p>
+                        <p class="section-box-text">The 2017 robot consists of two PCBs. A main board which contains the power circuitry, microcontrollers, motor controllers, tsops, IMU, and a light sensor board which contains the phototranistors and LEDs. The PCBs are designed to reduce wires as well as provide reliable connections for components and reliable wires between them. They also provide a solid base to attach components to.</p>
+                    </div>
+
+                    <div class="section-column-half" id="pcbimg"></div>
+                </div>
+
+                <div class="robots-section-content">
+                    <div class="section-row">
+                        <div class="section-column-half" id="plateimg"></div>
+
+                        <div class="section-column-half">
+                            <p class="section-box-title">PLATES</p>
+                            <p class="section-box-text">As part of the construction, laser-cut polycarbonate plates are used to mount the various components and give the robot its shape. The 2017 robot consists of three main horizontal plates, shaped like a hexagon in LJ STAND style.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-row">
+                    <div class="section-column-half">
+                        <p class="section-box-title">3D PRINTING</p>
+                        <p class="section-box-text">Another form of manafacturing for structural parts is 3D printing. 3D printing allows for highly customisable 3D parts that can be used in construction. The main use for 3D printing in the 2017 robot is as a ring to support the main pcb and have holes for the TSOP IR sensors.</p>
+                    </div>
+
+                    <div class="section-column-half" id="printingimg"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

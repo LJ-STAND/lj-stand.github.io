@@ -1,0 +1,46 @@
+#vid {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+#content {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.scroll-element {
+    width: 100%;
+    background-color: #656565;
+    border-radius: 10px;
+    margin-top: calc(0.05*100vw);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+
+.scroll-element-content {
+    margin: 2%;
+    width: 96%;
+    display: inline-block;
+}
+
+#scroll-spacer {
+    height: calc(0.05*100vw);
+}
+
+.content-title {
+    width: 100%;
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.content-text {
+    width: 100%;
+    margin: 0;
+    color: #b3b3b3;
+}
+
+#team-image {
+    width: 100%;
+}
