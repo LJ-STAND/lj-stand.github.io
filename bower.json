@@ -1,0 +1,12 @@
+{
+  "name": "lj-stand",
+  "description": "Bower Settings for LJ-STAND",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-route": "^1.5.9",
+    "angular-sanitize": "^1.5.9",
+    "foundation": "^5.5.3"
+  }
+}
