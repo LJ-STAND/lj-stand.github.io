@@ -137,12 +137,12 @@ body, html {
     width: 100%;
 }
 
-#github-link {
+#bitbucket-link {
     color: #ffffff;
     transition: 0.2s
 }
 
-#github-link:hover {
+#bitbucket-link:hover {
     color: #b3b3b3;
 }
 
